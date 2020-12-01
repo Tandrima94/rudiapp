@@ -1,7 +1,7 @@
 import React  from "react";
 import HomePage from "./HomePage";
 import Contact from "./Contact";
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App(props) {
     return (

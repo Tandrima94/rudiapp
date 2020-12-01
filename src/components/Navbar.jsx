@@ -23,7 +23,7 @@ function Navbar(props)
     }
 
     function openNewWindow() {
-        const newWindow = window.open('#contact');
+        const newWindow = window.open('/Contact');
         if (newWindow) newWindow.opener = null
     }
     
@@ -67,7 +67,7 @@ function Navbar(props)
                 </a>
             </li> */}
             <li>
-                <Link to={"/Contact"}>
+                <Link onClick={openNewWindow}>
                 {/* <a id="a-contact" href="#contact" onClick={openNewWindow} > */}
                     Contact
                 </Link>

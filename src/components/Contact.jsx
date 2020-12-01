@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import iitrpImg from "../media/iitmrp.jpg_large";
 import aavrtti_logo from "../media/aavrtti_logo.png";
 import pragyanImg from "../media/pragyan.png";
 import kavithaImg from "../media/kavitha.jpg";
 import cvkImg from "../media/cvk.jpg";
+import AOS from "aos";
 import 'aos/dist/aos.css';
 import { ReactComponent as CallLogo } from "../media/call-outline.svg";
 import { ReactComponent as MailLogo } from "../media/mail-outline.svg";
+import { ReactComponent as HomeLogo } from "../media/home.svg";
 import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";
+import { Link } from "react-router-dom";
 
 function Map() {
     return (
@@ -21,15 +24,25 @@ function Map() {
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 function Contact() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    });
     return (
         <div id="contact-main">
             <nav id="contact-nav">
                 <div id = "contact-brand" className="navbar-brand">
-                <img src={aavrtti_logo} alt="Aavrtti Logo" />
-                <div>
-                    <p>AAVRTTI</p>
-                    <p>Technologies</p>
+                    <img src={aavrtti_logo} alt="Aavrtti Logo" />
+                    <div>
+                        <p>AAVRTTI</p>
+                        <p>Technologies</p>
+                    </div>
                 </div>
+                <div id="contact-home">
+                    
+                        <div id="home-logo"><HomeLogo /></div>
+                        <Link to={"/"} ><p>Home</p></Link>
+                    
                 </div>
             </nav>
             <div id="contact-intro">

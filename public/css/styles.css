@@ -241,6 +241,10 @@ nav ul li a:hover {
     -webkit-text-fill-color:rgba(255, 255, 255, 0);
 }
 
+#product {
+    overflow-x: hidden;
+}
+
 #productImg {
     width: 100%;
     height: 100vh;
@@ -462,12 +466,46 @@ background: linear-gradient(180deg, rgba(2,0,37,1) 0%, rgba(7,7,117,1) 38%, rgba
     line-height: 38px;
     font-family: Galada;
     font-size: 38px;
-    color: black;
+    color: white;
 }
 
 #contact-brand img {
     height: 80px;
     width: 80px;
+}
+
+#contact-home {
+    display: inline-flex;
+    float: right;
+    color: white;
+    /* padding-right: 30px;
+    padding-top: 25px; */
+    font-size: 21px;
+    padding: 0 10px;
+    /* border-style: inset;
+    border-radius: 10px; */
+    /* border-color: rgba(255, 255, 255, 0.6); */
+    cursor: pointer;
+    height: 50px;
+    margin: 15px 30px;
+    align-items: center;
+}
+
+#contact-home p {
+    padding-left: 10px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+a:-webkit-any-link {
+    color: white;
+}
+
+#contact-home:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+    border-bottom-style: inset;
+    /* border-radius: 10px */
+    /* border-color:rgb(2,0,37); */
 }
 
 #team {
