@@ -132,6 +132,7 @@ nav ul li a:hover {
 
 #row {
     width: 100%;
+    overflow-x: hidden;
 }
 
 #locate {
