@@ -11,29 +11,35 @@ import recoImg4 from "../media/reco6.jpg";
 function Investor() {
     return (
         <div id= "investor">
-            <div className="investor-row">
-                <img src={supImg1} />
+            <p className="support-heading">Supported By</p>
+            <div>
+                <div className="investor-row">
+                    <img src={supImg1} />
+                </div>
+                <div className="investor-row">
+                    <img src={supImg2} />
+                </div>
+                <div className="investor-row" id="sine-logo">
+                    <img src={supImg3} />
+                </div>
+                <div className="investor-row">
+                    <img src={supImg4} />
+                </div>
             </div>
-            <div className="investor-row">
-                <img src={supImg2} />
-            </div>
-            <div className="investor-row" id="sine-logo">
-                <img src={supImg3} />
-            </div>
-            <div className="investor-row">
-                <img src={supImg4} />
-            </div>
-            <div className="investor-row second-row">
-                <img src={recoImg1} />
-            </div>
-            <div className="investor-row second-row">
-                <img src={recoImg2} />
-            </div>
-            <div className="investor-row second-row">
-                <img src={recoImg3} />
-            </div>
-            <div className="investor-row second-row">
-                <img src={recoImg4} />
+            <p className="support-heading">Organised By</p>
+            <div>
+                <div className="investor-row second-row">
+                    <img src={recoImg1} />
+                </div>
+                <div className="investor-row second-row">
+                    <img src={recoImg2} />
+                </div>
+                <div className="investor-row second-row">
+                    <img src={recoImg3} />
+                </div>
+                <div className="investor-row second-row">
+                    <img src={recoImg4} />
+                </div>
             </div>
         </div>
     )

@@ -13,7 +13,10 @@ function Navbar(props)
     }
 
     function menuSelect() {
-        var activeLinks = document.getElementById("navmenu").getElementsByClassName("active");
+        var activeLinks = document
+        .getElementById("navmenu")
+        .getElementsByClassName("active");
+        
         if (activeLinks != null && activeLinks.length > 0) {
             activeLinks[0].classList.remove("active");
         }
@@ -47,31 +50,24 @@ function Navbar(props)
                 </a>
             </li>
             <li>
-                <a id="a-about" href="#about" onClick={menuSelect}>
-                    About
+                <a id="a-what-we-do" href="#what-we-do" onClick={menuSelect}>
+                    What We Do
                 </a>
             </li>
             <li>
-                <a id="a-product" href="#product" onClick={menuSelect}>
-                    Product and Services
+                <a id="a-who-we-are" href="#who-we-are" onClick={menuSelect}>
+                    Who We Are
                 </a>
             </li>
             <li>
-                <a id="a-investor" href="#investor" onClick={menuSelect}>
-                    Investors
-                </a>
-            </li>
-            {/* <li>
-                <a id="a-team" href="#team" onClick={menuSelect}>
-                    Team
-                </a>
-            </li> */}
-            <li>
-                <Link onClick={openNewWindow}>
-                {/* <a id="a-contact" href="#contact" onClick={openNewWindow} > */}
+                <a id="a-contact" href="#contact" onClick={menuSelect}>
                     Contact
-                </Link>
-                {/* </a> */}
+                </a>
+            </li>
+            <li>
+                <a id="a-join-us" href="#join-us" onClick={menuSelect}>
+                    Join Us
+                </a>
             </li>
       </ul>
     </nav>

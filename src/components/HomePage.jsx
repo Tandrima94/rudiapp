@@ -1,18 +1,24 @@
 import React  from "react";
 import Home from "./Home";
-import About from "./About";
 import Product from "./Product";
 import TechnologyDetail from "./TechnologyDetail";
 import Investor from "./Investor";
+import WhatWeDo from "./WhatWeDo";
+import WhoWeAre from "./WhoWeAre";
+import Contact from "./Contact";
+import JoinUs from "./JoinUs";
 
-function HomePage(props) {
+function HomePage() {
     return (
         <div>
             <Home />
-            <About />
+            <WhatWeDo />
             <Product />
             <TechnologyDetail />
+            <WhoWeAre />
+            <Contact />
             <Investor />
+            <JoinUs />
         </div>
     )
 }
