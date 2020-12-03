@@ -1,8 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
 import aavrtti_logo from "../media/aavrtti_logo.png";
 
-function Navbar(props)
+function Navbar()
 {
     function showMenu() {
         if (document.getElementById("check").checked) {
@@ -25,10 +24,10 @@ function Navbar(props)
         document.getElementById("navmenu").classList.remove('menu-clicked');
     }
 
-    function openNewWindow() {
-        const newWindow = window.open('/Contact');
-        if (newWindow) newWindow.opener = null
-    }
+    // function openNewWindow() {
+    //     const newWindow = window.open('/Contact');
+    //     if (newWindow) newWindow.opener = null
+    // }
     
     return (
         <nav id = "navbar">

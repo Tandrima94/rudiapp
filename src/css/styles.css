@@ -235,7 +235,7 @@ nav ul li a:hover {
 #moto p {
     /* background-color: #FFDD59; */
     /* transform: rotate(-3.5deg); */
-    font-family: sans-serif;
+    font-family: "Arvo";
     text-transform: uppercase;
     font-size: 1em;
     /* letter-spacing: 4px; */
@@ -381,7 +381,8 @@ background: linear-gradient(180deg, rgba(2,0,37,1) 0%, rgba(7,7,117,1) 38%, rgba
 #contact-us-heading{
     text-align: center;
     color: white;
-    font-family: sans-serif;
+    font-family: "Zilla Slab";
+    font-weight: 600;
     font-size: 2rem;
     margin-bottom: 3vh;
 }
@@ -484,7 +485,8 @@ background: linear-gradient(180deg, rgba(2,0,37,1) 0%, rgba(7,7,117,1) 38%, rgba
 #contact-home p {
     padding-left: 10px;
     font-size: 0.9em;
-    font-family: sans-serif;
+    font-family: "Zilla Slab";
+    
 }
 
 a:-webkit-any-link {
