@@ -622,9 +622,9 @@ a:-webkit-any-link {
 }
 
 #join-us-details {
-    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    /* width: fill-available;          WebKit-based browsers will ignore this. */
     width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-    width: fill-available;
+    width: stretch;
     height: 100%;
     display: flex;
     flex-direction: column;
