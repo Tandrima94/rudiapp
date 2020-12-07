@@ -13,7 +13,7 @@ function JoinUs() {
                 <p style={{fontSize: '1rem'}}>Send us your resume to</p>
                 <div className="separator"></div>
                 {/* <p>Contact </p> */}
-                <p style={{fontSize: '1rem'}}>pragyan@aavrtti.com</p>
+                <a href="mailto:pragyan@aavrtti.com" style={{fontSize: '1rem'}, {color: 'deepskyblue'}}>pragyan@aavrtti.com</a>
             </div>
         </div>
     )
