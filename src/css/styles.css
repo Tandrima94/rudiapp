@@ -100,7 +100,6 @@ nav ul li a:hover {
     height: min-content;
     /* max-height: 700px; */
     bottom: 0;
-
     background-color: white;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
@@ -243,7 +242,7 @@ nav ul li a:hover {
     background: linear-gradient(90deg, #000, #fff, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear infinite;
+    animation: animate 5s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color:rgba(255, 255, 255, 0);
 }
@@ -486,7 +485,7 @@ background: linear-gradient(180deg, rgba(2,0,37,1) 0%, rgba(7,7,117,1) 38%, rgba
     padding-left: 10px;
     font-size: 0.9em;
     font-family: "Zilla Slab";
-    
+
 }
 
 a:-webkit-any-link {
@@ -507,18 +506,12 @@ a:-webkit-any-link {
 }
 
 #team-heading {
+    text-align: center;
     margin-top: 4vh;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
     font-family: "Zilla Slab";
     font-weight: 700;
     font-size: 1.5rem;
-}
-
-#separator {
-    border-top: 3px solid #bbb;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 2vh;
 }
 
 .member-row {
@@ -609,6 +602,51 @@ a:-webkit-any-link {
     max-width: 150px;
     max-height: 200px;
     border-radius: 5px;
+}
+
+#join-us {
+    background-color: #010408;
+    height: 100vh;
+    width : 100%;
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    overflow: hidden;
+    /* flex-direction: column; */
+}
+
+#join-us img{
+    height: auto;
+    width: 70%;
+    background-color: white;
+}
+
+#join-us-details {
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#join-us-details p{
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.member-details .ionicon {
+    height: 25px;
+    width: 25px;
+    margin-top: 2vh;
+    color: deepskyblue;
+}
+
+.separator {
+    height: 3vh;
 }
 
 @keyframes bounce {

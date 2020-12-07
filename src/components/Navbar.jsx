@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import aavrtti_logo from "../media/aavrtti_logo.png";
 
 function Navbar()
@@ -24,10 +25,10 @@ function Navbar()
         document.getElementById("navmenu").classList.remove('menu-clicked');
     }
 
-    // function openNewWindow() {
-    //     const newWindow = window.open('/Contact');
-    //     if (newWindow) newWindow.opener = null
-    // }
+    function openNewWindow() {
+        const newWindow = window.open('/join-us');
+        if (newWindow) newWindow.opener = null
+    }
     
     return (
         <nav id = "navbar">
@@ -64,9 +65,11 @@ function Navbar()
                 </a>
             </li>
             <li>
-                <a id="a-join-us" href="#join-us" onClick={menuSelect}>
+                {/* <a id="a-join-us" href="#join-us" onClick={menuSelect}> */}
+                <Link id="a-join-us" to="/" onClick={openNewWindow}>
                     Join Us
-                </a>
+                </Link>
+                {/* </a> */}
             </li>
       </ul>
     </nav>

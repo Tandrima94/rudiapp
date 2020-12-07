@@ -6,7 +6,7 @@ import Investor from "./Investor";
 import WhatWeDo from "./WhatWeDo";
 import WhoWeAre from "./WhoWeAre";
 import Contact from "./Contact";
-import JoinUs from "./JoinUs";
+
 
 function HomePage() {
     return (
@@ -16,9 +16,8 @@ function HomePage() {
             <Product />
             <TechnologyDetail />
             <WhoWeAre />
-            <Contact />
             <Investor />
-            <JoinUs />
+            <Contact />
         </div>
     )
 }
