@@ -26,7 +26,7 @@ function Investor() {
                     <img src={supImg4} />
                 </div>
             </div>
-            <p className="support-heading">Organised By</p>
+            <p className="support-heading">Recognized By</p>
             <div>
                 <div className="investor-row second-row">
                     <img src={recoImg1} />

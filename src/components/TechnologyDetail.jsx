@@ -5,8 +5,8 @@ import 'aos/dist/aos.css';
 function TechnologyDetail() {
     return (
         <div id="tech-detail">
-            <h2>OUR SOLUTION</h2>
-            <div id="tech-para" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">
+            <h2>Our Solution</h2>
+            <div id="tech-para">  {/*data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in augue quis turpis sollicitudin finibus. 
                 Ut volutpat dui lectus. Vivamus accumsan tortor a dapibus ornare. Mauris vitae libero aliquam, lobortis justo ut, 
                 iaculis ligula. Etiam vulputate magna in auctor tincidunt. Suspendisse potenti. Suspendisse eget pellentesque risus. 

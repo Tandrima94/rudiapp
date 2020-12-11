@@ -6,7 +6,7 @@ function JoinUs() {
         <div id="join-us">
             <img src={joinusImg} />
             <div id="join-us-details">
-                <p>Join Our Community</p>
+                <p>Join Our Team</p>
                 <div className="separator"></div>
                 <p style={{fontSize: '1rem'}}>If you are interested in being a part of our team</p>
                 <div className="separator"></div>
