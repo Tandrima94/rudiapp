@@ -95,14 +95,14 @@ nav ul li a:hover {
 
 #root > div {
     height: 100vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 #jk-details {
     display: none;
     flex-direction: column;
     align-items: flex-end;
-    position: absolute;
+    position: fixed;
     width: 60%;
     height: 55%;
     top: 0;
