@@ -52,7 +52,7 @@ function Contact() {
                                 <CallLogo />
                                 <p>+91 72006 02200</p>
                             </div>
-                            <div className="spacer"></div>
+                            {/* <div className="spacer"></div> */}
                             <div className="logo">
                                 <MailLogo />
                                 <p>pragyan@aavrtti.com</p>

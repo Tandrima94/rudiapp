@@ -39,7 +39,7 @@ function Navbar()
                 <img src={aavrtti_logo} alt="Aavrtti Logo" />
                 <div>
                     <p>AAVRTTI</p>
-                    <p>Technologies</p>
+                    {/* <p>Technologies</p> */}
                 </div>
             </div>
             <input type="checkbox" id="check" onClick={showMenu} />

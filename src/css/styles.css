@@ -13,7 +13,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-    font-size: 1.3vw;
+    font-size: 18px;
 }
 
 nav {
@@ -175,14 +175,6 @@ nav ul li a:hover {
     padding-right: 15vw;
 }
 
-#what-we-do {
-    margin-top: 10vh;
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(0,0,0, 0.2);
-}
-
 #moto {
     position: absolute;
     padding-left: 45vw;
@@ -190,12 +182,42 @@ nav ul li a:hover {
     color: #FFDD59;
 }
 
-#row {
+#what-we-do {
+    padding-top: 85px;
+    /* flex-direction: column; */
+    height: 100vh;
     width: 100%;
-    overflow-x: hidden;
+    background-color: rgba(0,0,0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
-#locate {
+.what-we-do-item {
+    height: 80vh;
+    width: 28%;
+    /* float: left;
+    margin-right: 3.5vw;
+    margin-left: 4vw;
+    margin-top: 15vh; */
+    background-color: #19212C;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.what-we-do-details {
+    color:#FFDD59;
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5%;
+    line-height: 5vh;
+}
+/* #locate {
     height: 80vh;
     width: 28%;
     float: left;
@@ -204,7 +226,7 @@ nav ul li a:hover {
     margin-top: 15vh;
     background-color: #19212C;
     border-radius: .5rem;
-}
+} */
 
 #aos-loc {
     width: 87%;
@@ -217,16 +239,16 @@ nav ul li a:hover {
     width: 100%;
 }
 
-#what-we-doLocate {
+/* #what-we-doLocate {
     color:#FFDD59;
     text-align: center;
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 5%;
     line-height: 5vh;
-}
+} */
 
-#identify {
+/* #identify {
     height: 80vh;
     width: 28%;
     float: left;
@@ -234,7 +256,7 @@ nav ul li a:hover {
     margin-right: 3.5vw;
     background-color: #19212C;
     border-radius: .5rem;
-}
+} */
 
 #aos-iden {
     width: 87%;
@@ -248,15 +270,15 @@ nav ul li a:hover {
     width: 100%;
 }
 
-#what-we-doIdentify {
+/* #what-we-doIdentify {
     color:#FFDD59;
     text-align: center;
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 5%;
     line-height: 5vh;
-}
-#map {
+} */
+/* #map {
     height: 80vh;
     width: 28%;
     float: left;
@@ -264,7 +286,7 @@ nav ul li a:hover {
     margin-right: 4vw;
     margin-top: 15vh;
     border-radius: .5rem;
-}
+} */
 
 #aos-map {
     width: 87%;
@@ -278,14 +300,14 @@ nav ul li a:hover {
     width: 100%;
 }
 
-#what-we-doMap{
+/* #what-we-doMap{
     color:#FFDD59;
     text-align: center;
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 5%;
     line-height: 5vh;
-}
+} */
 
 #moto p {
     /* background-color: #FFDD59; */
@@ -393,6 +415,7 @@ nav ul li a:hover {
     line-height: 5vh;
     padding-top: 5vh;
     font-family: "Zilla Slab";
+    text-align: justify;
 }
 
 #sine-logo {
@@ -427,10 +450,12 @@ nav ul li a:hover {
 
 #contact-us {
     width: 30%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* align-self: center; */
 }
 
 #contact-us-heading{
@@ -447,21 +472,23 @@ nav ul li a:hover {
     border-radius: .2rem;
     border-color: white;
     border-width: 1px;
-    height: 52vh;
-    width: 20vw;
+    height: max-content;
+    width: 75%;
+    /* margin: 2rem; */
+    padding: 2rem;
 }
 
 #contact-detail p{
     color: white;
-    font-size: .9rem;
+    /* font-size: 1.2rem; */
     text-align: left;
-    margin-top: 5vh;
-    margin-left: 1.6vw;
+    /* margin-top: 5vh;
+    margin-left: 1.6vw; */
 }
 
 .address {
-    margin-left: 1.6vw;
-    margin-right: 1.6vw;
+    /* margin-left: 1.6vw;
+    margin-right: 1.6vw; */
     margin-top: 3.5vh;
     font-size: .9rem;
     color: white;
@@ -469,16 +496,24 @@ nav ul li a:hover {
 }
 
 .logo {
-    height: 3vh;
+    margin-top: 3.5vh;
+    /* height: 20px; */
     display: flex;
+    /* justify-content: space-between; */
 }
 
 .logo svg {
-    height: 100%;
+    height: 20px;
     width: auto;
-    margin-left: 1.6vw;
-    margin-top: 5.5vh;
+    /* margin-left: 1.6vw;
+    margin-top: 5.5vh; */
 
+}
+
+.logo p {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    line-height: 0.7rem;
 }
 
 .spacer {
@@ -543,11 +578,11 @@ nav ul li a:hover {
     font-family: "Zilla Slab";
 
 }
-
+/* 
 a:-webkit-any-link {
-    /* color: white; */
+    color: white;
     color: black;
-}
+} */
 
 #contact-home:hover {
     border-color: rgba(255, 255, 255, 0.6);
@@ -588,6 +623,7 @@ a:-webkit-any-link {
     background-color: rgba(0, 0, 0, 0.07);
     height: 18vh;
     width: min-content;
+    max-width: 350px;
     display: flex;
     margin-left: 2.5em;
     align-items: center;
@@ -698,9 +734,17 @@ a:-webkit-any-link {
     z-index: 2;
 }
 
-#join-us-details p{
+#join-us-details p {
     color: aliceblue;
-    font-size: 2rem;
+}
+
+#join-us-details p:first-child {
+    font-size: 1.5rem;
+}
+
+#join-us-details > * {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 .member-details .ionicon {
@@ -746,9 +790,18 @@ a:-webkit-any-link {
 
 
 @media (max-width: 1200px) {
-    body {
-      font-size: calc(16px + 2 * ((100vw - 950px) / 680));
-      /* font-size: 17px; */
+    html {
+      font-size: 3.6vw;
+    }
+
+    .root {
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 100%;
+        opacity: 1;
+        height: 80px;
     }
     
     .checkbtn {
@@ -764,7 +817,17 @@ a:-webkit-any-link {
         /* margin: 50px 0;
         line-height: 30px; */
     }
+
+    nav ul li a{
+        color: white;
+        /* font-size: 3rem; */
+    }
     
+    nav ul li a.active,
+    nav ul li a:hover {
+        border-bottom-color: white;
+    } 
+
     nav ul.menu-clicked {
         background: rgba(0, 0, 0, 0.9);
         text-align: center;
@@ -775,5 +838,142 @@ a:-webkit-any-link {
         top: 80px;
         left: 0;
         transition: all 0.5s;
+        color: white;
+    }
+
+    .intro img {
+        position: relative;
+        width: 100%;
+        /* height: 100vh; */
+        object-fit: cover;
+        padding: 12em 0 5em 0;
+    }
+
+    #what-we-do {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .what-we-do-item {
+        width: 90%;
+        border-radius: 2rem;
+        margin-bottom: 10vh;
+    }
+
+    #productImg img {
+        object-fit: cover;
+    }
+
+    #tech-detail {
+        height: auto;
+    }
+
+    #productName {
+        font-size: 1.1rem;
+        margin-top: 10%;
+    }
+
+    #productDetail {
+        font-size: 0.9rem;
+        text-align: justify;
+        text-justify: distribute;
+    }
+
+    #tech-detail {
+        height: auto;
+    }
+
+    #tech-para {
+        line-height: 3vh;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        padding: 0 10vw 10vw;
+        
+    }
+
+    #who-we-are {
+        height:max-content;
+    }
+
+    .member-row {
+        justify-content: space-evenly;
+    }
+
+    .each-row {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .team-members {
+        width: 80%;
+        margin-bottom: 5vh;
+    }
+
+    .team-members img{
+        height: inherit;
+    }
+
+    .member-details {
+        font-size: 1rem;
+        width: auto;
+    }
+
+    #investor {
+        height: max-content;
+        width: auto;
+        padding: 0;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .support-heading {
+        /* font-size: 1.5rem; */
+        margin-top: 0;
+        margin-bottom: 8vh;
+    }
+
+    #investor > div {
+        height: max-content;
+        flex-direction: column;
+    }
+
+    #contact-intro {
+        height: max-content;
+        flex-direction: column;
+        position: relative;
+    }
+
+    #contact-img {
+        width: auto;
+    }
+
+    #contact-intro img {
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        opacity: 0.3;
+    }
+
+    #contact-us {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+    }
+
+    #join-us img{
+        width: 100%;
+        object-fit: cover;
+        opacity: 20%;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 500px) {
+    html {
+        font-size: 18px;
     }
 }
