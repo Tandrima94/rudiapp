@@ -1,5 +1,5 @@
 import React from "react";
-import iitrpImg from "../media/iitmrp.jpg_large";
+import iitrpImg from "../media/iitmrp.jpg";
 import { ReactComponent as CallLogo } from "../media/call-outline.svg";
 import { ReactComponent as MailLogo } from "../media/mail-outline.svg";
 // import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";

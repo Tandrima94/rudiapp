@@ -15,6 +15,6 @@ ReactDOM.render(
 WebFont.load({
   google: {
     // families: ["Lora:400,500,600", "Galada:400", "serif", "Patua One: 400", "Raleway:400", "Zilla Slab:600"],
-    families: ["Arvo:400", "Zilla Slab:400,600"],
+    families: ["Arvo:400", "Zilla Slab:400,500,600"],
   }
 })

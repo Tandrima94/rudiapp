@@ -40,7 +40,7 @@ nav ul li {
 nav ul li a {
     /* color: #adb5bd; */
     color: black;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
@@ -216,6 +216,8 @@ nav ul li a:hover {
     margin-right: 6%;
     margin-top: 5%;
     line-height: 5vh;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 /* #locate {
     height: 80vh;
@@ -347,7 +349,8 @@ nav ul li a:hover {
     /* width: 100%; */
     position: absolute;
     opacity: 1;
-    margin-top: 10%;
+    top: 15vh;
+    /* margin-top: 10%; */
     /* background-color: #A8ADB0; */
     /* color: #A8ADB0; */
     /* height: 5%; */
@@ -363,16 +366,15 @@ nav ul li a:hover {
 }
 
 #productDetail {
-    /* height: inherit;
-    width: inherit; */
+    /* height: inherit;*/
+    width: 65%; 
     position: absolute;
     font-family: "Zilla Slab";
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     /* margin-left: 2vw; */
     opacity: 1;
-    left: 15vw;
-    /* right: 5vw; */
-    top: 65vh;
+    right: 0;
+    bottom: 25vh;
     padding: 0.7em;
     border-radius: 0.3em;
     background: rgba(0, 0, 0, 0.5);
@@ -404,12 +406,13 @@ nav ul li a:hover {
 #tech-detail h2 {
     color: #21252B;
     /* padding-left: 5vw; */
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-family: "Zilla Slab";
     text-align: center;
 }
 
 #tech-para {
+    font-size: 1.3rem;
     padding-left: 10vw;
     padding-right: 10vw;
     line-height: 5vh;
@@ -654,7 +657,7 @@ a:-webkit-any-link {
     /* margin-top: 3vh; */
     /* line-height: 5vh; */
     font-family: "Zilla Lab";
-    font-size: .8rem;
+    font-size: .9rem;
     width: 12rem;
     padding-left: 1em;
 }
@@ -719,7 +722,7 @@ a:-webkit-any-link {
     height: auto;
     width: 70%;
     background-color: white;
-    opacity: 15%;
+    opacity: 20%;
 }
 
 #join-us-details {
@@ -849,6 +852,19 @@ a:-webkit-any-link {
         padding: 12em 0 5em 0;
     }
 
+    #moto {
+        padding-left: 0;
+        padding-top: 0;
+        bottom: 15%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #moto p{
+        font-size: 1rem;
+    }
+
     #what-we-do {
         flex-direction: column;
         height: max-content;
@@ -870,13 +886,16 @@ a:-webkit-any-link {
 
     #productName {
         font-size: 1.1rem;
-        margin-top: 10%;
+        top: 15vh;
+    
     }
 
     #productDetail {
+        width: 80%;
         font-size: 0.9rem;
         text-align: justify;
         text-justify: distribute;
+        bottom: 25vh;
     }
 
     #tech-detail {
@@ -915,7 +934,7 @@ a:-webkit-any-link {
     }
 
     .member-details {
-        font-size: 1rem;
+        font-size: 1.1rem;
         width: auto;
     }
 
@@ -951,7 +970,7 @@ a:-webkit-any-link {
         height: 100vh;
         width: 100vw;
         object-fit: cover;
-        opacity: 0.3;
+        opacity: 0.2;
     }
 
     #contact-us {
@@ -962,6 +981,19 @@ a:-webkit-any-link {
         right: 0;
         margin: auto;
         width: 100%;
+    }
+
+    #contact-detil {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .address {
+        font-family: 1rem;
+    }
+
+    .logo p{
+        font-size: 1rem;
     }
 
     #join-us img{

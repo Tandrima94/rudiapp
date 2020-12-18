@@ -7,7 +7,7 @@ function Members(props) {
         // document.getElementById("jkDetails").classList.remove("display-none");
         document.getElementById("jk-details").style.display = "flex";
     }
-    if (props.name== "J Krishnan") {
+    if (props.name=== "J Krishnan") {
         return (
             <div
                 className="team-members">
