@@ -14,31 +14,31 @@ function Investor() {
             <p className="support-heading">Supported By</p>
             <div>
                 <div className="investor-row">
-                    <img src={supImg1} />
+                    <img src={supImg1} alt="investor-img" />
                 </div>
                 <div className="investor-row">
-                    <img src={supImg2} />
+                    <img src={supImg2} alt="investor-img"/>
                 </div>
                 <div className="investor-row" id="sine-logo">
-                    <img src={supImg3} />
+                    <img src={supImg3} alt="investor-img"/>
                 </div>
                 <div className="investor-row">
-                    <img src={supImg4} />
+                    <img src={supImg4} alt="investor-img"/>
                 </div>
             </div>
             <p className="support-heading" style={{marginTop: '5vh'}}>Recognized By</p>
             <div>
                 <div className="investor-row second-row">
-                    <img src={recoImg1} />
+                    <img src={recoImg1} alt="investor-img"/>
                 </div>
                 <div className="investor-row second-row">
-                    <img src={recoImg2} />
+                    <img src={recoImg2} alt="investor-img"/>
                 </div>
                 <div className="investor-row second-row">
-                    <img src={recoImg3} />
+                    <img src={recoImg3} alt="investor-img"/>
                 </div>
                 <div className="investor-row second-row">
-                    <img src={recoImg4} />
+                    <img src={recoImg4} alt="investor-img"/>
                 </div>
             </div>
         </div>

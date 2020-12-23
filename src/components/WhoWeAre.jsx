@@ -10,9 +10,6 @@ import tandrimaImg from "../media/tandrima.jpg";
 
 
 function WhoWeAre() {
-    function closeDiv() {
-        document.getElementById("jkDetails").style.display = "none";
-    }
     return (
         <div id="who-we-are">
             {/* <div id="team-heading">Who We Are</div> */}
@@ -46,28 +43,6 @@ function WhoWeAre() {
                         name="J Krishnan"
                         position="Business Mentor"
                         recognition="Alumnus, IITM & IIMC" />
-                    {/* <div className="toggle" id="jkDetails" onClick={closeDiv}>
-                        <div id="jkText">
-                            J. Krishnan, is an alumnus of I.I.T. Madras and I.I.M. Calcutta. He has been involved with the
-                            I.T. Industry in India since 1985 and has been part of the core group/promoters of various startup
-                            companies (Computer Point, MicroLand). He was adviser to Satyam Infoway Limited (SIFY)
-                            between 1997 &amp; 2002 and was part of the Road-show team during SIFY’s IPO and listing on the
-                            NASDAQ.
-                            JK started his own software development company called NetLink Technologies in 1992. He
-                            successfully exited this venture when it was acquired by Deccan Chronicle. As part of Deccan
-                            Chronicle’s initiatives, JK was instrumental in successfully bidding for an IPL Franchise
-                            (Deccan Chargers), acted as the CEO of Deccan Chargers for the 2008 season and was part of
-                            the team management in the 2009 season.
-                            JK promoted UniMity Solutions in 2011, with focus on Content Management Systems, providing
-                            solutions for Online Communities, Social Workspaces, Media and E-Commerce domains.
-                            A Rotarian since 1986, he is the Past President of the Rotary Club of Madras Central Aadithya.
-                            An active sports enthusiast, he has led the Rotary cricket team to UK, Australia, New Zealand,
-                            Sri Lanka and South Africa.
-                            JK is the Past President of the IIM Calcutta Alumni Chennai Chapter, and is a Charter Member
-                            &amp; former Vice President of TiE Chennai. As part of TiE Chennai’s initiatives, JK is involved as
-                            a mentor/advisor for various start-ups and young entrepreneurs.
-                        </div>
-                    </div> */}
                 </div>
                 <div className="each-row">
                     <Members 

@@ -4,7 +4,7 @@ import joinusImg from "../media/joinus.jpg";
 function JoinUs() {
     return (
         <div id="join-us">
-            <img style={{opacity: '20%'}} src={joinusImg} />
+            <img style={{opacity: '20%'}} src={joinusImg} alt="join-us-img"/>
             <div id="join-us-details">
                 <p>Join Our Team</p>
                 {/* <div className="separator"></div> */}

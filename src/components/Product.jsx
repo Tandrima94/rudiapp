@@ -7,7 +7,7 @@ function Product() {
     return (
         <div id="product">
             <div id="productImg">
-                <img src= {productImg} />
+                <img src= {productImg} alt="product-img"/>
                 <div id="productName"> {/*} data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                     NON-DESTRUCTIVE EVALUATION PROCESS
                 </div>

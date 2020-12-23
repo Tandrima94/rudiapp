@@ -15,7 +15,7 @@ function HomePage() {
         if (document.location.href.split('/')[3] === "join-us")
             return;
         if (document.location.hash === "") {
-          var scrollDistance = Math.ceil(document.querySelector("#root > div").scrollTop);
+          var scrollDistance = Math.ceil(document.documentElement.scrollTop);
           console.log(scrollDistance);
           if (scrollDistance === 0) {
             document.querySelector("#navmenu li a").classList.add('active');
@@ -49,7 +49,9 @@ function HomePage() {
     }
     
     function onScrollListener() {
-        var scrollDistance = Math.ceil(document.querySelector("#root > div").scrollTop);
+        // var scrollDistance = Math.ceil(document.querySelector("#root > div").scrollTop);
+        var scrollDistance = Math.ceil(document.documentElement.scrollTop);
+        console.log(scrollDistance);
         if (document.getElementById("navmenu") !== null){
             var links = document.getElementById("navmenu").getElementsByTagName("a");
         }
@@ -70,9 +72,10 @@ function HomePage() {
     function closeDiv() {
         document.getElementById("jk-details").style.display = "none";
     }
-    
+    window.addEventListener("load", initialDynamicSetup);
+    window.addEventListener("scroll", onScrollListener);
     return (
-        <div onScroll={onScrollListener} onLoad={initialDynamicSetup}>
+        <div>
             <div className="toggle" id="jk-details">
                 <label onClick={closeDiv}><Close /></label>
                 <div id="jk-text">
@@ -95,7 +98,7 @@ function HomePage() {
                     &amp; former Vice President of TiE Chennai. As part of TiE Chennai’s initiatives, JK is involved as
                     a mentor/advisor for various start-ups and young entrepreneurs.</p>
                 </div>
-            </div>
+            </div>        
             <Home />
             <WhatWeDo />
             <Product />

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import WebFont from "webfontloader";
 import App from './components/App';
-
+import "../src/css/styles.css";
 
 
 ReactDOM.render(

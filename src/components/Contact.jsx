@@ -36,17 +36,17 @@ function Contact() {
             </nav> */}
             <div id="contact-intro">
 
-                <div id="contact-img"><img src={iitrpImg} /></div>
+                <div id="contact-img"><img src={iitrpImg} alt="IITM-img"/></div>
                 <div id="contact-us">
                     <div id="contact-us-heading"><p>Contact Us</p></div> {/*data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom"> */}
                     <div id = "contact-detail"> {/*data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                         <p>AAVRTTI Technologies</p>
                         <div className="address">
-                            Kalinga Vihar, Patrapada, Bhubaneswar - 751019 (Regd.)
-                        </div>
-                        <div className="address">
                             IITM Incubation Cell, IITM Research Park, Taramani, Chennai - 600113 (Corp.)
-                        </div>                        
+                        </div> 
+                        <div className="address">
+                            Registered office: Kalinga Vihar, Patrapada, Bhubaneswar - 751019
+                        </div>                                               
                         <div id="ph-mail">
                             <div className="logo">
                                 <CallLogo />
