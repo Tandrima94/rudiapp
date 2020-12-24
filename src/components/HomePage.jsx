@@ -6,6 +6,7 @@ import Investor from "./Investor";
 import WhatWeDo from "./WhatWeDo";
 import WhoWeAre from "./WhoWeAre";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import { ReactComponent as Close } from "../media/close.svg";
 
 
@@ -16,7 +17,6 @@ function HomePage() {
             return;
         if (document.location.hash === "") {
           var scrollDistance = Math.ceil(document.documentElement.scrollTop);
-          console.log(scrollDistance);
           if (scrollDistance === 0) {
             document.querySelector("#navmenu li a").classList.add('active');
           } else {
@@ -51,7 +51,6 @@ function HomePage() {
     function onScrollListener() {
         // var scrollDistance = Math.ceil(document.querySelector("#root > div").scrollTop);
         var scrollDistance = Math.ceil(document.documentElement.scrollTop);
-        console.log(scrollDistance);
         if (document.getElementById("navmenu") !== null){
             var links = document.getElementById("navmenu").getElementsByTagName("a");
         }
@@ -106,6 +105,7 @@ function HomePage() {
             <WhoWeAre />
             <Investor />
             <Contact />
+            <Footer />
         </div>
     )
 }

@@ -55,7 +55,7 @@ function Contact() {
                             {/* <div className="spacer"></div> */}
                             <div className="logo">
                                 <MailLogo />
-                                <p>pragyan@aavrtti.com</p>
+                                <p><a href="mailto:pragyan@aavrtti.com" style={{color: 'white'}}>pragyan@aavrtti.com</a></p>
                             </div>
                             
                         </div>

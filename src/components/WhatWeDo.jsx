@@ -15,7 +15,7 @@ function WhatWeDo() {
             <div><b><i>Never miss or hit any utility</i></b></div>
             <div>
             <div className="what-we-do-item" id="locate">
-                <div id = "aos-loc"> {/*data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
+                <div className = "what-we-do-image"> {/*data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                     <img src = {locateImg} alt="locate-img" />
                 </div>
                 <div className= "what-we-do-details" id="what-we-doLocate"> {/*data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
@@ -24,7 +24,7 @@ function WhatWeDo() {
                 </div>
             </div>
             <div className="what-we-do-item" id="identify">
-                <div id = "aos-iden"> {/*data-aos="zoom-out" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
+                <div className = "what-we-do-image"> {/*data-aos="zoom-out" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                     <img src = {identifyImg} alt="identify-image"/>
                 </div>
                 <div className= "what-we-do-details" id="what-we-doIdentify"> {/*data-aos="zoom-out" data-aos-duration="800" data-aos-delay="200">*/}
@@ -34,7 +34,7 @@ function WhatWeDo() {
                 </div>
             </div>
             <div className="what-we-do-item" id="map">
-                <div id="aos-map"> {/*data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
+                <div className = "what-we-do-image"> {/*data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                     <img src={mapImg} alt="map-image"/>
                 </div>
                 <div className="what-we-do-details" id="what-we-doMap" style={{lineHeight: '3vh'}}> {/*data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
