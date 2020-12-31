@@ -189,11 +189,11 @@ nav ul li a:hover {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin-top: 5vh;    
+    margin-top: 3vh;    
 }
 
 .what-we-do-item {
-    height: 75vh;
+    height: 78vh;
     width: 28%;
     background-color: #19212C;
     border-radius: .5rem;
@@ -201,6 +201,14 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.what-we-do-item > p {
+    color: #FFDD59;
+    font-size: 1.2rem;
+    padding: 1rem;
+    display: flex;
+    align-self: center;
 }
 
 .what-we-do-details {
@@ -218,7 +226,7 @@ nav ul li a:hover {
     width: 87%;
     height: 40%;
     margin-left: 6%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
 .what-we-do-image img {
@@ -271,7 +279,7 @@ nav ul li a:hover {
 }
 
 #productDetail {
-    width: 65%; 
+    /* width: 65%;  */
     position: absolute;
     font-family: "Zilla Slab";
     font-size: 1.5rem;
@@ -300,25 +308,16 @@ nav ul li a:hover {
 #tech-detail {
     height: 90vh;
     width: 100%;
-    background-color: gainsboro;
+    background-color: #020202;
     padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#tech-detail h2 {
-    color: #21252B;
-    font-size: 2.3rem;
-    font-family: "Zilla Slab";
-    text-align: center;
-}
-
-#tech-para {
-    font-size: 1.3rem;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    line-height: 5vh;
-    padding-top: 5vh;
-    font-family: "Zilla Slab";
-    text-align: justify;
+#tech-detail img {
+    height: auto;
+    width: 70%;
 }
 
 #sine-logo {
@@ -761,15 +760,13 @@ nav ul li a:hover {
     }
 
     #tech-detail {
-        height: auto;
+        height: 60vh;
+        width: 100%;
     }
 
-    #tech-para {
-        line-height: 3vh;
-        margin-top: 2vh;
-        margin-bottom: 5vh;
-        padding: 0 10vw 10vw;
-        
+    #tech-detail img {
+        height: auto;
+        width: 100%;
     }
 
     #who-we-are {
@@ -810,7 +807,7 @@ nav ul li a:hover {
     .support-heading {
         /* font-size: 1.5rem; */
         margin-top: 0;
-        margin-bottom: 8vh;
+        margin-bottom: 4vh;
     }
 
     #investor > div {

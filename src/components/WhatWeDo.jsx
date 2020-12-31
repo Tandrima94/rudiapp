@@ -1,7 +1,7 @@
 import React from "react";
 // import AOS from "aos";
 // import 'aos/dist/aos.css';
-import locateImg from "../media/locate.jpg";
+import locateImg from "../media/locate.png";
 import identifyImg from "../media/identify.jpg";
 import mapImg from "../media/map.jpg";
 
@@ -15,6 +15,7 @@ function WhatWeDo() {
             <div><b><i>Never miss or hit any utility</i></b></div>
             <div>
             <div className="what-we-do-item" id="locate">
+                <p>PRODUCT</p>
                 <div className = "what-we-do-image"> {/*data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                     <img src = {locateImg} alt="locate-img" />
                 </div>
@@ -24,6 +25,7 @@ function WhatWeDo() {
                 </div>
             </div>
             <div className="what-we-do-item" id="identify">
+                <p>SERVICES</p>
                 <div className = "what-we-do-image"> {/*data-aos="zoom-out" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                     <img src = {identifyImg} alt="identify-image"/>
                 </div>
@@ -34,14 +36,15 @@ function WhatWeDo() {
                 </div>
             </div>
             <div className="what-we-do-item" id="map">
+                <p>CONSULTANCY</p>
                 <div className = "what-we-do-image"> {/*data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
                     <img src={mapImg} alt="map-image"/>
                 </div>
                 <div className="what-we-do-details" id="what-we-doMap" style={{lineHeight: '3vh'}}> {/*data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
-                <p>Antenna design and development</p><br />
-                <p>Antenna selection for GPR</p><br />
-                <p>GPR software assistance</p><br />
-                <p>Advance signal processing of GPR signals</p>
+                <p>Advanced processing of weak and noisy GPR scans</p><br />
+                <p>Updates, consultation, and technical support on GPR</p><br />
+                <p>Antenna design, fabrication, and characterizations </p><br />
+                {/* <p>Advance signal processing of GPR signals</p> */}
                 
                 </div>
             </div>

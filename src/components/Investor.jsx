@@ -7,7 +7,7 @@ import recoImg1 from "../media/reco1.jpg";
 import recoImg2 from "../media/reco2.jpg";
 import recoImg3 from "../media/reco5.png";
 import recoImg4 from "../media/reco6.jpg";
-
+import dstImg from "../media/dst.jpg";
 function Investor() {
     return (
         <div id= "investor">
@@ -24,6 +24,9 @@ function Investor() {
                 </div>
                 <div className="investor-row">
                     <img src={supImg4} alt="investor-img"/>
+                </div>
+                <div className="investor-row">
+                    <img src={dstImg} alt="dst-img"/>
                 </div>
             </div>
             <p className="support-heading" style={{marginTop: '5vh'}}>Recognized By</p>
