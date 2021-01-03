@@ -868,3 +868,21 @@ nav ul li a:hover {
         font-size: 18px;
     }
 }
+
+/* @media screen and (max-width: 1400px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    html {
+        font-size: 15px;
+    }
+} */

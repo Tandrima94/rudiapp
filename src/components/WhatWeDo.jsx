@@ -41,9 +41,9 @@ function WhatWeDo() {
                     <img src={mapImg} alt="map-image"/>
                 </div>
                 <div className="what-we-do-details" id="what-we-doMap" style={{lineHeight: '3vh'}}> {/*data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
-                <p>Advanced processing of weak and noisy GPR scans</p><br />
-                <p>Updates, consultation, and technical support on GPR</p><br />
-                <p>Antenna design, fabrication, and characterizations </p><br />
+                <p>• Advanced processing of weak and noisy GPR scans </p><br />
+                <p>• Updates, consultation, and technical support on GPR</p><br />
+                <p>• Antenna design, fabrication, and characterizations </p>
                 {/* <p>Advance signal processing of GPR signals</p> */}
                 
                 </div>

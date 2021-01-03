@@ -12,7 +12,7 @@ function Product() {
                     NON-DESTRUCTIVE EVALUATION PROCESS
                 </div>
                 <div id="productDetail"> {/*data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">*/}
-                RUDI COMES WITH III SOLUTIONS I.E. IMAGE, IDENTIFY AND INSPECT ANY BURIED OBJECTS 
+                RUDI COMES WITH III SOLUTIONS, IMAGE, IDENTIFY AND INSPECT 
                 </div>
                 <div className="down-arrow bounce">
                     <DownLogo title='Scroll down' />
