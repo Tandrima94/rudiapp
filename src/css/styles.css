@@ -744,6 +744,10 @@ nav ul li a:hover {
         font-size: 1rem;
     }
 
+    .what-we-do-item {
+        height: 40rem;
+    }
+
     #what-we-do > div:not(:first-child) {
         flex-direction: column;
         height: max-content;
