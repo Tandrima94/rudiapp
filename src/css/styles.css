@@ -161,7 +161,7 @@ nav ul li a:hover {
 .intro img {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding-left: 15vw;
     padding-right: 15vw;
 }
