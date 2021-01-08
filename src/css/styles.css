@@ -892,6 +892,10 @@ nav ul li a:hover {
     html {
         font-size: 18px;
     }
+
+    .intro img{
+        height: auto;
+    }
     
     .what-we-do-image {
         display: flex;
