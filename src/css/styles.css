@@ -324,7 +324,7 @@ nav ul li a:hover {
 }
 
 #tech-detail {
-    height: 90vh;
+    height: max-content;
     width: 100%;
     background-color: #020202;
     padding-top: 5vh;
