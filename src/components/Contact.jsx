@@ -48,10 +48,6 @@ function Contact() {
                             Registered office: Kalinga Vihar, Patrapada, Bhubaneswar - 751019
                         </div>                                               
                         <div id="ph-mail">
-                            <div className="logo">
-                                <CallLogo />
-                                <p>+91 72006 02200</p>
-                            </div>
                             {/* <div className="spacer"></div> */}
                             <div className="logo">
                                 <MailLogo />
