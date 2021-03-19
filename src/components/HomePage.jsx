@@ -20,7 +20,7 @@ function HomePage() {
           if (scrollDistance === 0) {
             document.querySelector("#navmenu li a").classList.add('active');
           } else {
-            var links = document.getElementById("navmenu").getElementsByTagName("a");
+            var links = document.getElementById("navmenu").getElementsByClassName("menu");//getElementsByTagName("a");
             if (links.length > 0) {
                 var prev = links[0];
                 if (document.getElementById(prev.id.replace('a-', '')).offsetTop <= scrollDistance) {
@@ -28,7 +28,7 @@ function HomePage() {
                 }
                 for (let i = 1; i < links.length; i++) {
                     const link = links[i];
-                    if (link.id.replace('a-', '') === 'join-us'){
+                    if (link.id.replace('a-', '') === 'join-us' || link.id.replace('a-', '') === 'in-the-news'){
                         break;
                     }
                     if (document.getElementById(link.id.replace('a-', '')).offsetTop > scrollDistance) {
@@ -52,11 +52,11 @@ function HomePage() {
         // var scrollDistance = Math.ceil(document.querySelector("#root > div").scrollTop);
         var scrollDistance = Math.ceil(document.documentElement.scrollTop);
         if (document.getElementById("navmenu") !== null){
-            var links = document.getElementById("navmenu").getElementsByTagName("a");
+            var links = document.getElementById("navmenu").getElementsByClassName("menu");//.getElementsByTagName("a");
         }
         
         Array.from(links).forEach((link) => {
-            if(link.id.replace('a-', '') !== 'join-us'){
+            if(link.id.replace('a-', '') !== 'join-us' || link.id.replace('a-', '') !== 'in-the-news'){
                 if (document.getElementById(link.id.replace('a-', '')).offsetTop <= scrollDistance) {
                     var activeLink = document.querySelector("#navmenu li a.active");
                     if (activeLink !== null) {

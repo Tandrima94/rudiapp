@@ -45,31 +45,39 @@ function Navbar()
             <input type="checkbox" id="check" onClick={showMenu} />
             <ul id="navmenu">
             <li>
-                <a id="a-home" href="#home" onClick={menuSelect}>
+                <a id="a-home" className="menu" href="#home" onClick={menuSelect}>
                     Home
                 </a>
             </li>
             <li>
-                <a id="a-what-we-do" href="#what-we-do" onClick={menuSelect}>
+                <a id="a-what-we-do" className="menu" href="#what-we-do" onClick={menuSelect}>
                     What We Do
                 </a>
             </li>
             <li>
-                <a id="a-who-we-are" href="#who-we-are" onClick={menuSelect}>
+                <a id="a-who-we-are" className="menu" href="#who-we-are" onClick={menuSelect}>
                     Who We Are
                 </a>
             </li>
             <li>
-                <a id="a-contact" href="#contact" onClick={menuSelect}>
+                <a id="a-contact" className="menu" href="#contact" onClick={menuSelect}>
                     Contact
                 </a>
             </li>
             <li>
-                {/* <a id="a-join-us" href="#join-us" onClick={menuSelect}> */}
                 <Link id="a-join-us" to="/" onClick={openNewWindow}>
                     Join Us
                 </Link>
-                {/* </a> */}
+            </li>
+            <li className="dropdown">
+                <a id="a-in-the-news" href="#">
+                    In The News
+                </a>
+                <div className="dropdown-area">
+                    <a href="https://www.startus-insights.com/innovators-guide/5-top-nondestructive-testing-ndt-solutions-impacting-engineering/" target="_blank">
+                    5 Top NDT Solutions Impacting Engineering
+                    </a>
+                </div>
             </li>
       </ul>
     </nav>
