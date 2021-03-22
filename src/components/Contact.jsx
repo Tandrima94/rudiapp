@@ -57,7 +57,7 @@ function Contact() {
                             
                         </div>
                     </div>
-                    <a href="https://www.linkedin.com/company/aavrtti/"><LinkedIn className="linked-logo"/></a>
+                    <a href="https://www.linkedin.com/company/aavrtti/" target="_blank"><LinkedIn className="linked-logo"/></a>
                 </div>
             </div>
             {/* <div id="gmap" >
