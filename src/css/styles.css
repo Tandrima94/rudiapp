@@ -589,6 +589,16 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+.linked-logo {
+    height: 5vh;
+    margin-top: 3vh;
+}
+
+.linked-logo > path
+{
+    fill: ghostwhite;
+}
+
 #join-us {
     background-color: #010408;
     height: 100vh;

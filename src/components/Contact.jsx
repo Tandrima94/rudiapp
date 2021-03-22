@@ -2,6 +2,7 @@ import React from "react";
 import iitrpImg from "../media/iitmrp.jpg";
 import { ReactComponent as CallLogo } from "../media/call-outline.svg";
 import { ReactComponent as MailLogo } from "../media/mail-outline.svg";
+import { ReactComponent as LinkedIn } from "../media/logo-linkedin.svg";
 // import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";
 
 
@@ -56,6 +57,7 @@ function Contact() {
                             
                         </div>
                     </div>
+                    <a href="https://www.linkedin.com/company/aavrtti/"><LinkedIn className="linked-logo"/></a>
                 </div>
             </div>
             {/* <div id="gmap" >
