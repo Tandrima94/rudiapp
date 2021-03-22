@@ -8,6 +8,7 @@ import recoImg2 from "../media/reco2.jpg";
 import recoImg3 from "../media/reco5.png";
 import recoImg4 from "../media/reco6.jpg";
 import dstImg from "../media/dst.jpg";
+import newsImg1 from "../media/news-img.png";
 function Investor() {
     return (
         <div id= "investor">
@@ -42,6 +43,12 @@ function Investor() {
                 </div>
                 <div className="investor-row second-row">
                     <img src={recoImg4} alt="investor-img"/>
+                </div>
+            </div>
+            <p className="support-heading" style={{marginTop: '5vh'}}>In the news</p>
+            <div>
+                <div className="investor-row second-row">
+                    <a href="https://www.startus-insights.com/innovators-guide/5-top-nondestructive-testing-ndt-solutions-impacting-engineering/" target="_blank"><img src={newsImg1} alt="news-img"/></a>
                 </div>
             </div>
         </div>

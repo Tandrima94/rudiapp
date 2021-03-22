@@ -93,27 +93,6 @@ nav ul li a:hover {
     height: 100vh;
 }
 
-.dropdown-area {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: white;
-    line-height: 30px;
-    max-width: 300px;
-    right: 0;
-    border-radius: 5px;
-}
-
-.dropdown:hover .dropdown-area {
-    display: block;
-}
-
-.dropdown-area a:hover{
-    /* text-decoration: unset; */
-    border-bottom: none;
-
-}
-
 #jk-details {
     display: none;
     flex-direction: column;
@@ -582,7 +561,7 @@ nav ul li a:hover {
 }
 
 #investor {
-    height: 100vh;
+    height: max-content;
     width: 100%;
     background-color: #fff;
     padding: calc(85px + 1.5em) 1.5em 1.5em;
@@ -604,7 +583,7 @@ nav ul li a:hover {
     padding: 2em;
 }
 
-.investor-row > img {
+.investor-row > img, .investor-row > a  img {
     max-width: 150px;
     max-height: 200px;
     border-radius: 5px;

@@ -28,7 +28,7 @@ function HomePage() {
                 }
                 for (let i = 1; i < links.length; i++) {
                     const link = links[i];
-                    if (link.id.replace('a-', '') === 'join-us' || link.id.replace('a-', '') === 'in-the-news'){
+                    if (link.id.replace('a-', '') === 'join-us'){
                         break;
                     }
                     if (document.getElementById(link.id.replace('a-', '')).offsetTop > scrollDistance) {
@@ -56,7 +56,7 @@ function HomePage() {
         }
         
         Array.from(links).forEach((link) => {
-            if(link.id.replace('a-', '') !== 'join-us' || link.id.replace('a-', '') !== 'in-the-news'){
+            if(link.id.replace('a-', '') !== 'join-us'){
                 if (document.getElementById(link.id.replace('a-', '')).offsetTop <= scrollDistance) {
                     var activeLink = document.querySelector("#navmenu li a.active");
                     if (activeLink !== null) {

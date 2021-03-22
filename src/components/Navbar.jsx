@@ -69,16 +69,20 @@ function Navbar()
                     Join Us
                 </Link>
             </li>
-            <li className="dropdown">
+            {/* <li className="dropdown">
                 <a id="a-in-the-news" href="#">
                     In The News
                 </a>
                 <div className="dropdown-area">
-                    <a href="https://www.startus-insights.com/innovators-guide/5-top-nondestructive-testing-ndt-solutions-impacting-engineering/" target="_blank">
-                    5 Top NDT Solutions Impacting Engineering
-                    </a>
+                    <span>
+                        <img src={news_img} style="height:"/>
+                        <a href="https://www.startus-insights.com/innovators-guide/5-top-nondestructive-testing-ndt-solutions-impacting-engineering/" target="_blank">
+                        5 Top NDT Solutions Impacting Engineering
+                        </a>
+                    </span>
+                    
                 </div>
-            </li>
+            </li> */}
       </ul>
     </nav>
     )
